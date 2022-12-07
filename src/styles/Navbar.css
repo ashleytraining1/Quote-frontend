@@ -1,0 +1,11 @@
+ .navbar-brand:hover {
+    color: whitesmoke;
+  } 
+  
+  .nav {
+    color: white;
+  }
+  
+  .nav-item {
+    text-transform: uppercase;
+  }

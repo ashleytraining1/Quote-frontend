@@ -1,26 +1,22 @@
-.footer {
-    width: 100%;
-    height: 200px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
-  }
-  
-  .socialMedia svg{
-    color: #000000;
-    margin: 20px;
-    font-size: 70px;
-    cursor: pointer;
-  }
-  .socialMedia svg:hover{
-    transform: scale(1.2);
-    background: #675;
-    color: #fff;
+footer {
+  background-color: #ffffff;
+  padding: 30px 0;
 }
-  
-  .footer p {
-    color: white;
-  }
+
+.socialMedia svg{
+  color: #000000;
+  margin: 15px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.socialMedia svg:hover{
+  transform: scale(1.2);
+  /* background: #; */
+  color: #fff;
+}
+
+
+footer p {
+  font-size: 20px;
+  color: #000000;
+}

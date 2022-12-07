@@ -1,0 +1,32 @@
+button{
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: inset 0px 0px 25px 0px;
+    color: black;
+    font-size: 15px;
+    border: none;
+}
+.card{
+   background: #fff none repeat scroll 0 0;
+   border: 2px solid #fff;
+   box-shadow: 0 0 11px 5px rgb(103 58 183 / 10%);
+   margin-bottom: 1px;
+   margin-top: 0px;
+   margin-inline: 10px;
+   padding: 1px 1px;
+   text-align: center;
+   transition: all 300ms ease-in-out;
+   -webkit-transition: all 300ms ease-in-out;
+   position: relative;
+   min-width: 350px;
+   overflow: hidden;
+}
+.card:hover{
+box-shadow: 0 0 11px 5px rgba(70, 41, 121, 0.25);
+}
+.card-text{
+    font-style: italic;
+    font-size: 20px;
+}
