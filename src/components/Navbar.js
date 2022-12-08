@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
 
-
 const Navbar = () => {
   return (
     <div>
@@ -37,12 +36,16 @@ const Navbar = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/quotes">
                   Quotes
                 </NavLink>
+              </li> */}
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact">
+                  Contact
+                </NavLink>
               </li>
-              
             </ul>
           </div>
         </div>

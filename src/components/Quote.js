@@ -20,6 +20,7 @@ const Quotes = () => {
 			});
 	}, []);
 
+
 	const Loading = () => {
 		return <>Loading....</>;
 	};
@@ -83,7 +84,7 @@ const Quotes = () => {
 											{/* {quote.category.substring(0, 12)} */}
 										</h5>
 										<p className="card-text lead fw-bold">{quote.description}</p>
-										<button >
+										<button type="Click">
 											View Quote
 										</button>
 									</div>
@@ -111,4 +112,3 @@ const Quotes = () => {
 	);
 };
 export default Quotes;
-
