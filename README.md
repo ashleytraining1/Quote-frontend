@@ -38,6 +38,20 @@ CSS3
 ReactJS
 Bootstrap 5.2
 
+# LOGIN
+
+when loging in only the names in the backend are what will allow you to view the quotes
+This are:
+Mau - 1001
+Ashyy - 1001
+
+# QUOTES
+
+click the All button to view the quotes.
+
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Frontend :
+   https://quote-frontend-deployed.netlify.app
+
+Backend :

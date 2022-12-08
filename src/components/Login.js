@@ -75,13 +75,14 @@ function Login() {
                   type="checkbox"
                   name="remember"
                 />{" "}
-                Remember me
+                Don't have an account? &nbsp; Sign Up
+                
               </label>
             </div>
             <button type="login" className="btn btn-primary">
               Login
             </button>
-            <p>Don't have an account? &nbsp; Sign Up</p>
+            
           </form>
         </div>
       </div>

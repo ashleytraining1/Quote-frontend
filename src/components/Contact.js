@@ -9,16 +9,9 @@ function Contact() {
   const [formData, setFormData] = useState({
     comment: "",
   });
-  // const [messages, setMessages] = useState([]);
-
-  // function addMessages(newMessage) {
-  // 	const updatedMessages = [...messages, newMessage];
-  // 	setMessages(updatedMessages);
-  // }
 
   console.log("form data: ", formData);
-  // console.log(messages);
-  //Post New Transaction to Server
+
   function handleSubmit(event) {
     event.preventDefault();
 
