@@ -55,3 +55,4 @@ Frontend :
    https://quote-frontend-deployed.netlify.app
 
 Backend :
+   https://quote-app-production.up.railway.app
