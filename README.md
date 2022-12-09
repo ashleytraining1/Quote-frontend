@@ -56,3 +56,5 @@ Frontend :
 
 Backend :
    https://quote-app-production.up.railway.app
+
+   
